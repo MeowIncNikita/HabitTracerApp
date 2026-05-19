@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import {
-    SafeAreaView,
     Text,
     TouchableOpacity,
     View,
     Alert,
+    SafeAreaView
 } from 'react-native';
 import { Task, PomodoroSession } from './src/types';
 import { parseToMarkDown } from './src/services/MarkdownParser';
