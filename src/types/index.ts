@@ -1,14 +1,13 @@
-interface  Task {
-    id: number;
-    name: string;
+export interface Task {
+    id: string;
     text: string;
     completed: boolean;
 }
 
-interface PomodoroSession {
+export interface PomodoroSession {
     id: number;
     isCompleted: boolean;
-    unitTime: number;
+    durationMinutes: number;
 }
 
 
